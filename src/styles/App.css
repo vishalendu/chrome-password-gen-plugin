@@ -1,0 +1,51 @@
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f5f5f5; */
+    display: flex;
+    justify-content: center; /* Horizontally center the inner box */
+    align-items: center; /* Vertically center the inner box */
+    height: 550px; /* Set a fixed height for the popup */
+    width: 400px; /* Set a fixed width for the popup */
+    overflow: hidden; /* Prevent scrollbars */
+    /* box-sizing: border-box; Include padding in the dimensions */
+  }
+  
+  .password-generator {
+    background: white;
+    /* padding: 50px 10px; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    width: 100%; /* Use the full width of the body */
+    /* max-width: 350px; Prevent it from growing too large */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Center content inside the box */
+    align-items: center; /* Align content horizontally inside the box */
+  }
+  
+  .password-display {
+    padding: 10px 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Add hover effect for better UI feedback */
+  }
