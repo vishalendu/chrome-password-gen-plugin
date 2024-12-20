@@ -8,7 +8,7 @@ To load the Plugin:
 	2.	Navigate to chrome://extensions/.
 	3.	Toggle the Developer mode switch in the top right corner.
 3) Click the “Load unpacked” button in the Developer mode area.
-4)	Browse to your project’s build directory and select it.
+4)	Browse to the project’s build directory and select it.
 5)	Chrome will load the extension, and you should see it in the extensions list.
 
 This is a simple Password Generator plugin, no fancy UI, but it has all the features that you should need. 
